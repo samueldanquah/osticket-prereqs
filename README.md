@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Basic understanding of Windows server administration.
 
 <h2>Installation Steps</h2>
-
+<img width="1280" alt="Part 1 - Creating a Virtual Machine in Azure 1" src="https://github.com/samueldanquah/osticket-prereqs/assets/153206496/6d8f7346-54de-4614-befa-581b84827658">
 <h3>Part 1: Creating a Virtual Machine in Azure</h3>
 <ul>
     <li>Created a Resource Group in Azure.</li>
@@ -36,13 +36,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </ul>
 
 <h3>Part 2: Installation Steps</h3>
+<img width="1280" alt="Part 1 - Creating a Virtual Machine in Azure 2" src="https://github.com/samueldanquah/osticket-prereqs/assets/153206496/adb48967-a017-4e27-a6a2-5c8bd6d4d818">
 <ul>
+    <img width="1280" alt="Deployment for VM" src="https://github.com/samueldanquah/osticket-prereqs/assets/153206496/f793de89-e299-40aa-bc01-d47f6721f1cd">
     <li><strong>Set Up Azure Virtual Machine:</strong>
+        <img width="1280" alt="Deployment for VM" src="https://github.com/samueldanquah/osticket-prereqs/assets/153206496/93be2c8d-bee0-4c07-bc5c-e18500c6433f">
         <ul>
             <li>Created an Azure VM named "Vm-osticket" with Windows 10, 4 vCPUs.</li>
             <li>Set the username as "labuser1" and the password as "Qwerty123456789".</li>
         </ul>
     </li>
+    <img width="1276" alt="Installation Files" src="https://github.com/samueldanquah/osticket-prereqs/assets/153206496/d95e4769-6c51-44cf-8b62-86a6b83dadd6">
     <li><strong>Access Installation Files:</strong>
         <ul>
             <li>Used provided installation files for osTicket and its dependencies.</li>
