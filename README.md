@@ -52,7 +52,53 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </ul>
 
 <h3>Installing and Enabling IIS in Windows with CGI and Common HTTP Features:</h3>
-<!-- Remaining Installation Steps -->
+<ol>
+    <li><strong>Accessing Windows Features:</strong>
+        <ul>
+            <li>Opened the Windows Features panel by searching for "Turn Windows features on or off" in the Start menu.</li>
+        </ul>
+    </li>
+    <li><strong>Enabling Internet Information Services (IIS):</strong>
+        <ul>
+            <li>Scrolled through the list in the Windows Features dialog box to find "Internet Information Services" and expanded it to view more features.</li>
+        </ul>
+    </li>
+    <li><strong>Activating World Wide Web Services:</strong>
+        <ul>
+            <li>Located and expanded the “World Wide Web Services” section within the IIS options.</li>
+        </ul>
+    </li>
+    <li><strong>Selecting Application Development Features:</strong>
+        <ul>
+            <li>Under “World Wide Web Services,” expanded “Application Development Features.”
+                <ul>
+                    <li>Checked the box for “[X] CGI” to enable the Common Gateway Interface.</li>
+                    <li>Checked the box for “[X] Common HTTP Features” to handle basic web functionalities.</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li><strong>Enabling the IIS Management Console:</strong>
+        <ul>
+            <li>Expanded the “Web Management Tools” in the IIS section and checked the box for “[X] IIS Management Console.”</li>
+        </ul>
+    </li>
+    <li><strong>Applying the Changes:</strong>
+        <ul>
+            <li>Clicked “OK” to install the selected components, allowing Windows to process the changes.</li>
+        </ul>
+    </li>
+    <li><strong>Opening IIS Manager:</strong>
+        <ul>
+            <li>Opened the “Internet Information Services (IIS) Manager” from the Start menu after installation completion.</li>
+        </ul>
+    </li>
+    <li><strong>Verifying the Installation:</strong>
+        <ul>
+            <li>In the IIS Manager, verified that all selected components were installed and explored various settings and features.</li>
+        </ul>
+    </li>
+</ol>
 
 <h3>Install Additional Components:</h3>
 <ul>
